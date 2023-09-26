@@ -1,20 +1,21 @@
-//package strings;
-//
-//public class LeetCode_FindTheDifference_389 {
-//	public static char findDiff(String s, String t) {
-//		for(int i=0;i<s.length();i++) {
-//			
-//		}
-////		if (t.contains(s)) {
-////			return 'y';
-////		}
-////		return 'f';
-//	}
-//
-//	public static void main(String[] args) {
-//		String s = "abcd";
-//		String t = "acdb";
-//		System.out.println(findDiff(s, t));
-//	}
-//
-//}
+package strings;
+
+public class LeetCode_FindTheDifference_389 {
+	public static char findDiff(String s, String t) {
+		char newChar = 0;
+		for (char sChar : s.toCharArray()) {
+			newChar ^= sChar;
+		}
+		for (char tChar : t.toCharArray()) {
+			newChar ^= tChar;
+		}
+		return newChar;
+	}
+
+	public static void main(String[] args) {
+		String s = "abcd";
+		String t = "abcde";
+		System.out.println(findDiff(s, t));
+	}
+
+}

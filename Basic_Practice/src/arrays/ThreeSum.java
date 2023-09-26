@@ -18,7 +18,7 @@ public class ThreeSum {
 	}
 
 	public static void main(String[] args) {
-		int[] nums = { -1, 0, 1, 2, -1, -4, -2 };
+		int[] nums = { -1, 0, 1, 2, -1, -4, -2 ,3,2};
 		int count = 2;
 
 		if (!(nums.length < count)) {
