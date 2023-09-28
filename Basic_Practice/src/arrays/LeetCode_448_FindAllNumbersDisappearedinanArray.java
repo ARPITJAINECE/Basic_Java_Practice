@@ -6,7 +6,7 @@ import java.util.List;
 public class LeetCode_448_FindAllNumbersDisappearedinanArray {
 	public List<Integer> findDisappearedNumbers(int[] nums) {
 		for (int i = 0; i < nums.length; i++) {
-			if(nums[i])
+//			if(nums[i])
 		}
 		return null;
 	}
