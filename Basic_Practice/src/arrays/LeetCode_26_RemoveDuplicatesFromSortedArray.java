@@ -11,15 +11,11 @@ public class LeetCode_26_RemoveDuplicatesFromSortedArray {
 		}
 		for (int i = 0; i <= rd; i++) {
 			System.out.println(nums[i] + " ");
-//			return nums[i];
 		}
-//		return nums.length;
-//		return rd + 1;
 	}
 
 	public static void main(String[] args) {
 		int nums[] = { 2, 2, 3, 3, 4, 5, 5, 6, 6 };
-//		System.out.println(removeDuplicates(nums));
 		removeDuplicates(nums);
 	}
 }
