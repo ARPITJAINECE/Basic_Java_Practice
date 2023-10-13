@@ -13,7 +13,7 @@ public class LeetCode_2540_MinimumCommonValue {
 //			}
 //		}
 //		return -1;
-		// use set for proper implementation of all the cases
+//		 use set for proper implementation of all the cases
 		Set<Integer> set = new HashSet<>();
 		for (int num : nums1) {
 			set.add(num);
