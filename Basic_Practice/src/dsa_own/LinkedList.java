@@ -148,4 +148,31 @@ public class LinkedList {
 		previous.setNext(deletable.getNext());
 		return true;
 	}
+
+	// middle element in the LL
+	public void middleElement() {
+		Node tempNode = head;
+		int count = 0;
+		int mid = 0;
+		while (tempNode != null) {
+			count++;
+			tempNode = tempNode.getNext();
+		}
+		Node midNode = head;
+		if (count % 2 == 0) {
+			mid = ((count + 1) / 2);
+			for (int i = 1; i <= mid; i++) {
+				midNode = midNode.getNext();
+			}
+			System.out.println(midNode.getData());
+		} else {
+			mid = count / 2;
+			for (int i = 1; i <= mid; i++) {
+				midNode = midNode.getNext();
+			}
+			System.out.println(midNode.getData());
+		}
+		System.out.println();
+	}
+
 }

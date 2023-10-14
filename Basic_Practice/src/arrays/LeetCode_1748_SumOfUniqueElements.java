@@ -10,7 +10,7 @@ public class LeetCode_1748_SumOfUniqueElements {
 		for (int num : nums) {
 			if (uniqueSet.add(num)) {
 				sum += num;
-			} 
+			}
 //			else {
 //				sum -= num;
 //			}
