@@ -13,7 +13,7 @@ public class remove_duplicates_from_list {
 		duplicate_list.add("three");
 		duplicate_list.add("one");
 		duplicate_list.add("two");
-		Set<String> non_duplicate_set = new HashSet<String>();
+		Set<String> non_duplicate_set = new HashSet<>();
 //		List<String> non_duplicate_set = new ArrayList<String>();
 		non_duplicate_set.addAll(duplicate_list);
 		for (String s : non_duplicate_set) {
